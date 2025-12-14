@@ -1,0 +1,7 @@
+streamlit
+trimesh
+shapely
+matplotlib
+numpy
+mapbox_earcut
+scipy
