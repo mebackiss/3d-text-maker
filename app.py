@@ -76,7 +76,7 @@ col_input, col_preview = st.columns([1, 2])
 
 with col_input:
     st.subheader("2. 输入与排版")
-    user_text = st.text_input("输入文字", "RANYEJUN", max_chars=20)
+    user_text = st.text_input("输入文字", "V+RANYEJUN", max_chars=20)
     
     st.caption("调整排版 (实时看右侧预览 👉)")
     step_x = st.slider("水平间距 (X)", 0, 200, 50)
@@ -207,3 +207,4 @@ if st.button("🚀 生成 3D 模型 (GLB)", type="primary", use_container_width=
                 )
             else:
                 st.error("生成失败。请检查字体文件是否有效。")
+
